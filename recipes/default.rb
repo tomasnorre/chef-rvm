@@ -7,9 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-bash "install_rvm" do
-  user "root"
-  cwd "/tmp"
+bash 'install_rvm' do
+  user 'root'
+  cwd '/tmp'
   code <<-EOH
   curl -sSL https://get.rvm.io | bash -s stable --ruby
   source /usr/local/rvm/scripts/rvm
@@ -17,8 +17,8 @@ bash "install_rvm" do
 end
 
 # Add jenkins user to rvm group
-group "rvm" do
+group 'rvm' do
   action :modify
-  members "jenkins"
+  members 'jenkins'
   append true
 end
