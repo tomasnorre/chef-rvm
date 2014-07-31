@@ -1,4 +1,4 @@
-nam 'rvm'
+name 'rvm'
 maintainer 'Tomas Norre Mikkelsen'
 maintainer_email 'tomasnorre@gmail.com'
 license 'All rights reserved'
