@@ -15,10 +15,3 @@ bash 'install_rvm' do
   source /usr/local/rvm/scripts/rvm
   EOH
 end
-
-# Add jenkins user to rvm group
-group 'rvm' do
-  action :modify
-  members 'jenkins'
-  append true
-end
