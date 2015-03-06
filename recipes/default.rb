@@ -15,4 +15,5 @@ bash 'install_rvm' do
   curl -sSL https://get.rvm.io | bash -s stable --ruby
   source /usr/local/rvm/scripts/rvm
   EOH
+  not_if 'test -f /usr/local/rvm/scripts/rvm'
 end
