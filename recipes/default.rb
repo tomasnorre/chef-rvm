@@ -2,7 +2,7 @@
 # Cookbook Name:: rvm
 # Recipe:: default
 #
-# Copyright 2014, Tomas Norre Mikkelsen
+# Copyright 2015, Tomas Norre Mikkelsen
 #
 # All rights reserved - Do Not Redistribute
 #

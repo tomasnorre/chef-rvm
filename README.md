@@ -1,46 +1,10 @@
 rvm Cookbook
 ============
-TODO: Enter the cookbook description here.
+[![Build Status](https://travis-ci.org/tomasnorre/chef-rvm.svg)](https://travis-ci.org/tomasnorre/chef-rvm)
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+This cookbook simply install rvm on your system, simple add `"recipe[rvm]"` to you `"run_list[]"`
 
-Requirements
-------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - rvm needs toaster to brown your bagel.
-
-Attributes
-----------
-TODO: List you cookbook attributes here.
-
-e.g.
-#### rvm::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['rvm']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
-
-Usage
------
-#### rvm::default
-TODO: Write usage instructions for each cookbook.
-
-e.g.
-Just include `rvm` in your node's `run_list`:
+Example:
 
 ```json
 {
@@ -53,9 +17,8 @@ Just include `rvm` in your node's `run_list`:
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
 e.g.
+
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
@@ -63,6 +26,31 @@ e.g.
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request using Github
 
-License and Authors
+Authors
 -------------------
-Authors: TODO: List authors
+* [Tomas Norre Mikkelsen](http://github.com/tomasnorre)
+
+License
+-------
+
+The MIT License (MIT)
+
+Copyright (c) 2015 - Tomas Norre Mikkelsen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
